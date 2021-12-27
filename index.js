@@ -3,7 +3,6 @@ const cors = require("cors");
 const res = require("express/lib/response");
 const app = express();
 const models = require("./models");
-const port = 8080;
 const multer = require("multer");
 const req = require("express/lib/request");
 const upload = multer({
