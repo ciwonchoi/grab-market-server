@@ -15,6 +15,7 @@ const upload = multer({
     },
   }),
 });
+console.log("it works");
 const port = process.env.PORT || 8080;
 
 app.use(express.json());
